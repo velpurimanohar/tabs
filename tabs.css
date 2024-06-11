@@ -1,0 +1,54 @@
+ul.tab-list {
+    list-style: none;
+    display: flex;
+    background: #ffefef;
+    width: max-content;
+    padding: 10px;
+    border-radius: 25px;
+    gap: 10px;
+}
+button.tab-item {
+    border: none;
+    background: white;
+    border-radius: 20px;
+    padding: 10px 16px;
+}
+a.tab-link {
+    text-decoration: none;
+    color: #333;
+}
+button.tab-item:hover {
+    background: hotpink;
+    box-shadow: 0px 1px 10px 0px #0000004a;
+    /* transform: translateY(-2px); */
+}
+button.tab-item:hover a{
+    color: #fff;
+}
+
+
+.testimonials {
+    display: flex;
+    column-gap: 10px;
+}
+
+.card {
+    border: solid 1px #ccc;
+    padding: 10px 12px;
+}
+
+h5.card-title {
+    margin: 4px;
+}
+/* .card1{
+    height: 200px;
+}
+.card2{
+    height: 300px;
+}
+.card3{
+    height: 400px;
+}
+.card4{
+    height: 500px;
+} */
